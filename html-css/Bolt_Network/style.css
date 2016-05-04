@@ -1,0 +1,142 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 970px;
+}
+/*
+.supporting {
+  background-image: url(s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+}*/
+
+.jumbotron {
+  background-color: black;
+  padding-bottom: 250px;
+}
+.jumbotron .container {
+  /*background-color: red;*/
+}
+.jumbotron .row .col-xs-2 img{
+  float: left;
+  width: 180px;
+}
+
+
+.jumbotron .row ul li {
+  display: inline;  
+}
+.jumbotron .row .login {
+  padding: 0px 20px;
+  color: white;
+}
+.jumbotron .btn {
+  color: #0393FF;
+  background: black;
+  border: 1px solid #0393FF;
+  padding: 8px 17px;
+}
+
+.jumbotron .btn:hover {
+  background-color: #0393FF;
+  color: white;
+}
+
+.jumbotron .container .main {
+  /*background-color: red;*/
+  margin-top: 80px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.jumbotron .main h1 {
+  color: white;
+  font-size: 55px;
+  font-weight: 200;
+}
+.jumbotron .main a {
+  position: relative;
+  border: 1px solid #0393FF;
+  padding: 12px 30px;
+  top: 40px;
+}
+.jumbotron .main form {
+  position: relative;
+  top: 120px;
+}
+.jumbotron .main input {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-bottom: 1px solid #0393FF;
+}
+
+.supporting {
+  position: relative;
+  margin-top: -30px;
+  /*padding-top: 500px;*/
+  background-color: #161616;
+  /*background-color : yellow;*/
+  padding: 60px 0;
+}
+.supporting .container .row .col-md-8 .thumbnail img {
+  padding: 0;
+}
+.supporting .thumbnail {
+  background-color: black;
+}
+.supporting .container h2, p {
+  text-align: center;
+}
+.supporting h2 {
+  color: #0393FF;
+  font-size: 30px;
+}
+.supporting .container p {
+  color: white;
+  padding-bottom: 30px;
+  font-size: 17px;
+}
+
+.thumbnail {
+  padding: 0;
+  border: none;
+}
+
+.feature {
+  position: relative;
+  height: 400px;
+  text-align: center;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg) no-repeat center center;
+  background-size: cover;
+}
+.feature .container h1 {  
+  
+  margin-top: 150px;
+  color: #0393FF;
+}
+.feature .container p {
+  font-size: 16px;
+  color: white;
+}
+.footer {
+  background-color: black;
+}
+.footer .container .row {
+  margin-top: 30px;
+}
+.footer .row .col-md-3 h2 {
+  font-size: 20px;
+  color: white;
+}
+.footer .row .col-md-3 ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer .row .col-md-3 ul  {
+  color: #0393FF;
+}

@@ -1,0 +1,127 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  /*margin: 0 auto;
+  padding: 0;*/
+}
+
+.header {
+  background-color: #30627E;
+}
+
+.header .nav {
+  /*height : 100%;*/
+  text-align: center;
+  padding: 28px 0;
+  
+}
+
+#adoptly {
+  background-color: #E52364;
+}
+
+.header .nav a {
+  display: inline;
+  color: white;
+  font-size: 20px;
+  padding: 30px 20px;
+}
+.header .nav a:hover {
+  background-color: #E52364;
+  cursor: pointer; 
+	transition: background .2s;
+  text-decoration: none;
+}
+
+.jumbotron {
+  margin: 0;
+  height: 400px;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/adoptly/bg.jpg) no-repeat center center;
+  /*background: url(http://www.ptolemus.com/content/uploads/2015/08/Single-Gantry-in-Poland.jpg) no-repeat center center;*/
+  background-size: cover;  
+}
+
+.jumbotron .banner {
+  text-align: center;  
+}
+.jumbotron .banner h1 {
+  color: #E52364;
+  font-weight: 600;
+}
+
+.supporting {
+  margin: 0;
+  padding-bottom: 20px;
+  /*background-color: blue;*/
+}
+.supporting .container {
+  /*background-color: red;*/
+  
+}
+.supporing .row { 
+  /*background-color: yellow;*/
+}
+
+.col-xs-12.col-sm-4.col-md-4 {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.supporting .row h1 {
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  /*background-color: yellow;*/
+}
+.supporting .row p {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 14px;
+  font-weight: 0; 
+  color: black;
+}
+.supporting .row a {  
+  position: relative;
+  top: 25px;
+  padding: 10px 65px;
+  border: 1px solid black;
+  /*background-color: green;*/  
+}
+
+.footer {
+  margin: 0;
+  height: 100px;
+  background-color: #e52364;
+}
+
+.footer .row {
+  position: relative;
+  top: 40px;
+  /*background-color: white;*/
+}
+
+.footer .row #faq {
+  padding-right: 20px;
+}
+
+.footer .row a, p {
+  color: white;
+  padding: 8px 12px;
+}
+.footer a:hover { 
+  background-color: rgb(239, 222, 242);
+  border-radius: 4px;
+}
+
+
+@media (max-width: 500px) {
+  ul li {
+    width: 100%;
+  }
+}

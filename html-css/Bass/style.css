@@ -1,0 +1,112 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.jumbotron {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/bass/bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.jumbotron .container .header .row .col-md-3 img {
+  height: 80px;
+  float: left;
+}
+.jumbotron .container .header .row .col-md-9 ul {
+  list-style-type: none;
+  color: white;
+  font-weight: 600;
+  margin-top: 35px;  
+}
+.jumbotron .container .header .row .col-md-9 ul li{
+  display: inline;
+  padding-right: 25px;  
+}
+.jumbotron .container .header .row .col-md-9 button {
+  background-color: #FF003D;
+  /*border: 2px solid red;*/
+  border: none;
+  padding: 6px 27px;
+}
+.jumbotron .container .main .row .col-md-7 {
+  margin-top: 70px;
+  margin-bottom: 140px;
+  /*background-color: green;*/
+  color: white;
+}
+.supporting-1 {
+  margin-top: -30px;
+  background-color: #161718;
+}
+.supporting-1 .container {
+  padding: 90px 0 65px 0;
+}
+.supporting-1 .container .row {
+  color: white;
+}
+.supporting-1 .container .row img {
+  height: 300px;
+}
+.supporting-2 {
+  background-color: black;
+}
+.supporting-2 .container {
+  padding: 90px 0 65px 0;
+}
+.supporting-2 .container .row {
+  color: white;
+}
+.supporting-2 .container .row img {
+  height: 300px;
+}
+.supporting-3 {
+  background-color: #161718;
+}
+.supporting-3 .container {
+  padding: 90px 0 65px 0;
+}
+.supporting-3 .container .row {
+  color: white;
+}
+.supporting-3 .container .row img {
+  height: 300px;
+}
+.supporting-4 {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+.supporting-4 .container h2 {
+  margin-top: 160px;
+  color: white;
+}
+.supporting-4 img {
+  margin-bottom: 160px;
+}
+.footer {
+  background-color: black;  
+}
+
+.footer .container .col-md-2 {
+  display: inline;
+}
+.footer .container .col-md-2 h3 {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;  
+  margin-top: 80px;
+}
+.footer .container .col-md-2 ul {
+  margin-bottom: 80px;
+  /*background-color: yellow;*/
+  padding: 0;
+}
+.footer .container .col-md-2 ul li {
+  color: white;
+  list-style-type: none;  
+  padding-top: 12px;
+  /*background-color: red;*/
+}
+.footer ul li a {
+  /*background-color: green;*/
+  color: #BCBCBC;
+  
+}

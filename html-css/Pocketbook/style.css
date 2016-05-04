@@ -1,0 +1,81 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #100B07;
+}
+
+body {
+  background: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/Hi-Tech-Wallpaper-1.png) no-repeat center center;
+  color: #fff;
+}
+
+.container {
+  max-width: 940px;
+}
+
+.header {
+  background-color: black; 
+  text-align: center;
+  padding-top: 40px;
+}
+
+.header .container {
+  border-bottom: 1px solid white;
+  padding-bottom: 30px;
+}
+
+.header img {
+  height: 60px;
+  width: 60px;
+  /*padding-bottom: 30px;*/
+}
+
+.main .container {  
+  padding-bottom: 60px; */bellow button*/
+}
+
+.main .row .col-md-6 a {
+  text-align: center;
+}
+.main .row h1 {
+  font-size: 30px;
+  margin-top: 70px;
+  color: white;
+}
+.main .row form {
+  color : white;
+  padding-top: 12px;
+  padding-bottom: 35px;
+}
+
+.main .row a {
+  position: relative;
+  text-align: center;
+  background-color: #295C46;
+  color: white;
+  padding: 10px 25px;
+}
+
+.footer {
+  margin-top: 20px;
+  margin-bottom: 180px;
+  /*background-color: green;*/
+}
+
+.footer .container {  
+  border-top: 1px solid white;
+  
+  /*background-color: blue;*/
+  
+  
+}
+
+.footer p {
+  position: relative;
+  top: 20px;
+  padding-bottom: 20px; 
+  color: white;
+  padding-right: 25px;
+  display: inline;  
+}

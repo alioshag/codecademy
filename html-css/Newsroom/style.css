@@ -1,0 +1,137 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.containber {
+  
+}
+
+.header {
+  background-color: black;
+}
+.header a img {
+  height: 45px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+  float: left;
+}
+.header .pull-right input, button {
+  margin-top: 20px;
+  background-color: black;
+  color: #F2F2F2;
+  border: black;
+  /*border-bottom: white;*/
+}
+.header .pull-right input {
+  border-bottom: 0.5px solid white;
+  padding-right: 20px;
+  font-size: 13px;
+}
+.header .pull-right button {
+  border-bottom: 1px solid #1A77FF;
+  font-size: 13px;
+}
+.menu {
+  background-color: #382F4A; 
+}
+.menu ul.nav li {
+  color: white;
+  padding: 10px 15px;
+}
+.menu ul.nav li.active {
+  background-color: #1A77FF;
+}
+.menu ul.nav li:hover {
+  background-color: #1A77FF;
+}
+.main {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.main .row .col-md-5 p {
+  color: white;
+  margin-top: 40px;
+}
+.main .row .col-md-5 h2 span {
+  
+  /*text-decoration: underline;
+  text-decoration-color: red;*/
+  color: white;
+  font-size: 60px;
+  border-bottom: 5px solid #1a77ff;
+}
+.main .row .col-md-5 p:nth-child(4) {
+  color: white;
+  margin-bottom: 200px;  
+}
+.supporting {
+  background-color: #F2F2F2;
+}
+.supporting .container {
+  padding: 40px;
+  background-color: #F2F2F2;
+  
+}
+#row-first {
+  background-color: white;
+}
+.supporting .row .col-md-8 h1 {
+  font-size: 23px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.supporting .row .col-md-8 h2 span {
+  font-size: 20px;
+  border-bottom: 2px solid #1a77ff;
+}
+.supporting .row .col-md-4 {
+  background-color: #152230;
+}
+.supporting .row .col-md-4 h1 {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+}
+.supporting .row .col-md-4 h2 span {
+  color: white;
+  font-size: 20px;
+  border-bottom: 2px solid #1a77ff;
+}
+.supporting .row .col-md-4 p {
+  color: white;
+}
+.supporting .row .col-md-12 {
+  /*background-color: green;*/
+  padding: 0;
+}
+#row-second {
+  margin-left: -15px;
+}
+.supporting .row .col-md-12 img {
+  /*margin-left: -5px;*/
+  margin-top: 40px;
+  width: 100%;
+}
+.footer {
+  background: black;
+}
+.footer .row {
+  /*background-color: green;*/
+}
+.footer .row ul {
+  float: left;
+  /*background-color: red;*/
+  padding-left: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.footer .row ul li {
+  display: inline; 
+  color: white;
+  padding-right: 20px;
+}
+.footer .row .pull-right p {
+  color: white;
+  margin-top: 30px;
+}

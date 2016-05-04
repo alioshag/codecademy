@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/armando-perez/brand.jpg) no-repeat center fixed;
+  background-size: cover;
+  
+}
+.header .row h1 {
+  margin-top: 40px;
+  color: white;
+  font-size: 31px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+.header ul {
+  /*background-color: green;*/
+  margin-top: 50px;
+}
+.header ul li {
+  display: inline;  
+  font-weight: 600;
+  letter-spacing: 1px;  
+}
+.header .nav-pills {
+  padding: 0px auto;
+}
+.header .nav-pills li a {
+  color : #F01251;  
+}
+.header .nav-pills li.active a {
+  color: white;
+  background-color: #F01251;
+  padding: 10px 40px;
+}
+.main {
+  margin-top: 40px;
+}
+.main .row {
+  padding: 10px;  
+}
+.main .row .col-md-4 {
+  margin: 0;
+  padding-right: 10px;
+  /*background-color: green;*/
+}
+.main .row .col-md-4 a img {
+  height: 100%;
+  width: 100%;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+.footer .row {
+  margin-top: 60px;
+  /*margin-bottom: 40px;*/
+  font-weight: 500;
+  /*background-color: red;*/
+  padding: 20px;
+}
+.footer .row ul {
+  padding: 0;
+  /*background-color: blue;*/
+}
+.footer .row ul li {
+  display: inline;
+  padding-right: 20px;
+  /*background-color: yellow;*/
+}

@@ -1,0 +1,128 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+}
+
+.container {
+  /*background-color: blue;*/
+  max-width: 940px;
+  margin: 0 auto;
+}
+.header .container {
+  padding: 30px;
+}
+
+/* Header */
+.nav-pills li a {
+  color: #d8192f;
+}
+
+.nav-pills li.active a,
+.nav-pills li a:hover,
+.section .btn:hover {
+  background-color:rgba(216,25,47,1);
+  box-shadow:0 2px 4px rgba(0,0,0,.5); 
+  color:#fff;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+  height: 500px;
+  /*background-color: blue;*/
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg);
+  background-size: cover;
+}
+.jumbotron .container {
+  /*background-color: red;*/
+  margin-top: 100px;
+}
+.jumbotron .container h1 {
+  color: white;
+  font-size: 45px;
+}
+
+
+/* Banner */
+.banner, .supporting {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.banner {
+  background-color:#36343f;
+  /*background-color:green;*/
+  height:180px; 
+  color: #fff;
+}
+.banner h1 {
+  font-size: 30px;
+}
+
+.banner a {
+  background-color: rgba(216, 25, 47, .5);
+  color: white;
+  font-size: 20px;
+}
+
+.section .container .page-header {
+  text-align: center;
+  border-bottom: white; /*delete a default line*/
+}
+/*Newest Contributions */
+.section .container .page-header h1 {
+  border-bottom: 1px solid #dbddbd;
+  font-size: 30px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+/*Breakfast Dinner Desser */
+.section .container .page-header h2 {
+  color: rgba(216,25,47,1);
+  font-size: 20px;  
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.section .container .page-header ul {
+  list-style-type: none;
+  padding-bottom: 40px;  
+}
+.section .container .page-header li {
+  /*text-align: center;*/
+  /*margin-left: 0;*/
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+.footer .container .row p {
+  font-size: 14px;
+  padding-top: 45px;
+  padding-bottom: 50px;
+  font-weight: 200;
+}
+
+.footer #red-footer {
+  color: red;
+}
+
+/* Media Queries */
+@media (max-width: 680px) {
+  .header h1 {
+    margin-bottom: 18px;
+    text-align: center;
+  }
+  .nav {
+    float: none;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 220px;
+  }
+
+  .nav-pills li:first-child a  {
+    margin-left: 0;
+  }
+}
